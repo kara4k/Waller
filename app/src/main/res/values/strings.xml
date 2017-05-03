@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Waller</string>
+    <string name="done">Done</string>
+    <string name="error">Something go wrong</string>
+    <string name="transparent">Transparent</string>
+    <string name="home_screen">Home Screen</string>
+    <string name="select_color">Select color</string>
+    <string name="apply">Apply</string>
+    <string name="home_screen_color">Set home screen color</string>
+    <string name="lock_screen_color">Set lock screen color</string>
+    <string name="lock_screen">Lock Screen</string>
+</resources>

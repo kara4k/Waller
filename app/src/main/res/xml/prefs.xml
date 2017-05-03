@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:key="screen">
+    <com.rarepebble.colorpicker.ColorPreference
+        android:title="@string/home_screen"
+        android:summary="@string/select_color"
+        android:key="home"
+        app:colorpicker_showAlpha="false"
+        app:colorpicker_selectNoneButtonText="@string/transparent"
+        android:defaultValue="0"/>
+    <Preference android:key="apply_home"
+        android:title="@string/apply"
+        android:summary="@string/home_screen_color"
+        />
+    <com.rarepebble.colorpicker.ColorPreference
+        android:title="@string/lock_screen"
+        android:summary="@string/select_color"
+        android:key="lock"
+        android:defaultValue="0"
+        app:colorpicker_selectNoneButtonText="@string/transparent"
+        app:colorpicker_showAlpha="false"/>
+    <Preference android:key="apply_lock"
+        android:title="@string/apply"
+        android:summary="@string/lock_screen_color"
+        />
+</PreferenceScreen>

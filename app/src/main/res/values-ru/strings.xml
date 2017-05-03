@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Waller</string>
+    <string name="done">Готово</string>
+    <string name="error">Что-то пошло не так</string>
+    <string name="transparent">Прозрачный</string>
+    <string name="home_screen">Главный экран</string>
+    <string name="select_color">Выберите цвет</string>
+    <string name="apply">Применить</string>
+    <string name="home_screen_color">Установить цвет главного экрана</string>
+    <string name="lock_screen_color">Установить цвет экрана блокировки</string>
+    <string name="lock_screen">Экран блокировки</string>
+</resources>
